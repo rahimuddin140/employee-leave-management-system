@@ -1,4 +1,4 @@
-const BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:4000/api';
+const BASE_URL = import.meta.env.VITE_API_URL || 'https://quickems-ps4-backend.onrender.com/api';
 
 export const fetchLeaveTypes = async (token) => {
   const res = await fetch(`${BASE_URL}/leave-types`, {
